@@ -1,6 +1,6 @@
 ﻿using System.Globalization;
 
-namespace name_sorter_application.Data;
+namespace name_sorter.application.Data;
 
 public readonly record struct Person(
     string FirstName,

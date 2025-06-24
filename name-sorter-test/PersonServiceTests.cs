@@ -1,9 +1,9 @@
 ﻿using Microsoft.Extensions.Logging;
 using Moq;
-using name_sorter_application.BusinessLogic.Services;
-using name_sorter_application.Interface;
+using name_sorter.application.BusinessLogic.Services;
+using name_sorter.application.Interface;
 
-namespace name_sorter_test
+namespace name_sorter.test
 {
     public class PersonServiceTests
     {

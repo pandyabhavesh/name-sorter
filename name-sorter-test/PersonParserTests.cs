@@ -1,12 +1,7 @@
-﻿using name_sorter_application.BusinessLogic.Helper;
-using name_sorter_application.Data;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using name_sorter.application.BusinessLogic.Helper;
+using name_sorter.application.Data;
 
-namespace name_sorter_test
+namespace name_sorter.test
 {
     public class PersonParserTests
     {

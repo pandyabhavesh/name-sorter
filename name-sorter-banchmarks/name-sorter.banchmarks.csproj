@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>name_sorter_banchmarks</RootNamespace>
+    <RootNamespace>name_sorter.banchmarks</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\name-sorter-application\name-sorter-application.csproj" />
+    <ProjectReference Include="..\name-sorter-application\name-sorter.application.csproj" />
   </ItemGroup>                           
 
 </Project>

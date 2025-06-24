@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>name_sorter_test</RootNamespace>
+    <RootNamespace>name_sorter.test</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\name-sorter-application\name-sorter-application.csproj" />
+    <ProjectReference Include="..\name-sorter-application\name-sorter.application.csproj" />
   </ItemGroup>
 
   <ItemGroup>

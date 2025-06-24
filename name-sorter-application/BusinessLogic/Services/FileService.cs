@@ -1,7 +1,7 @@
-﻿using name_sorter_application.Interface;
+﻿using name_sorter.application.Interface;
 using Microsoft.Extensions.Logging;
 
-namespace name_sorter_application.BusinessLogic.Services;
+namespace name_sorter.application.BusinessLogic.Services;
 
 public class FileService(ILogger<FileService> log) : IFileService
 {

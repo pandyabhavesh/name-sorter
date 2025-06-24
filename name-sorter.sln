@@ -5,11 +5,16 @@ VisualStudioVersion = 17.14.36203.30
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "name-sorter", "name-sorter\name-sorter.csproj", "{C81E1616-9726-4C92-9A3E-FF2F17D4919E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "name-sorter-test", "name-sorter-test\name-sorter-test.csproj", "{07C58224-294F-4531-AC0D-963E21796B2F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "name-sorter.test", "name-sorter-test\name-sorter.test.csproj", "{07C58224-294F-4531-AC0D-963E21796B2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "name-sorter-application", "name-sorter-application\name-sorter-application.csproj", "{BFC3FF4A-F29B-464E-89CE-1CC882838288}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "name-sorter.application", "name-sorter-application\name-sorter.application.csproj", "{BFC3FF4A-F29B-464E-89CE-1CC882838288}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "name-sorter-banchmarks", "name-sorter-banchmarks\name-sorter-banchmarks.csproj", "{8241A088-0FD7-5A6D-C8D5-B239AC09B610}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "name-sorter.banchmarks", "name-sorter-banchmarks\name-sorter.banchmarks.csproj", "{8241A088-0FD7-5A6D-C8D5-B239AC09B610}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

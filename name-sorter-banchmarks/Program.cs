@@ -2,9 +2,9 @@
 
 using BenchmarkDotNet.Running;
 using Microsoft.Extensions.DependencyInjection;
-using name_sorter_application.BusinessLogic.Helper;
-using name_sorter_application.BusinessLogic.Services;
-using name_sorter_application.Interface;
+using name_sorter.application.BusinessLogic.Helper;
+using name_sorter.application.BusinessLogic.Services;
+using name_sorter.application.Interface;
 using Serilog;
 
 public static class Program

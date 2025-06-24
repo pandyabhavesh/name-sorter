@@ -1,7 +1,7 @@
-﻿using name_sorter_application.Data;
+﻿using name_sorter.application.Data;
 using System.Globalization;
 
-namespace name_sorter_application.BusinessLogic.Helper;
+namespace name_sorter.application.BusinessLogic.Helper;
 
 /// <summary>
 /// Performs an ordinal‑ignore‑case comparison:

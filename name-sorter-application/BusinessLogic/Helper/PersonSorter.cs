@@ -1,7 +1,7 @@
-﻿using name_sorter_application.Data;
-using name_sorter_application.Interface;
+﻿using name_sorter.application.Data;
+using name_sorter.application.Interface;
 
-namespace name_sorter_application.BusinessLogic.Helper;
+namespace name_sorter.application.BusinessLogic.Helper;
 
 public class PersonSorter : IPersonSorter
 {

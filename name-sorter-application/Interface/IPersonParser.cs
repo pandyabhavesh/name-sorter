@@ -1,6 +1,6 @@
-﻿using name_sorter_application.Data;
+﻿using name_sorter.application.Data;
 
-namespace name_sorter_application.Interface
+namespace name_sorter.application.Interface
 {
     public interface IPersonParser
     {

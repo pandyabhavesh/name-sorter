@@ -1,10 +1,10 @@
 ﻿using BenchmarkDotNet.Attributes;
 using Microsoft.Extensions.DependencyInjection;
-using name_sorter_application.BusinessLogic.Helper;
-using name_sorter_application.BusinessLogic.Services;
-using name_sorter_application.Data;
-using name_sorter_application.Interface;
-using name_sorter_banchmarks;
+using name_sorter.application.BusinessLogic.Helper;
+using name_sorter.application.BusinessLogic.Services;
+using name_sorter.application.Data;
+using name_sorter.application.Interface;
+using name_sorter.banchmarks;
 using Serilog;
 
 

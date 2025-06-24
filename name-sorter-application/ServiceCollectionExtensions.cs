@@ -1,14 +1,14 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using name_sorter_application.BusinessLogic.Helper;
-using name_sorter_application.BusinessLogic.Services;
-using name_sorter_application.Interface;
+using name_sorter.application.BusinessLogic.Helper;
+using name_sorter.application.BusinessLogic.Services;
+using name_sorter.application.Interface;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace name_sorter_application
+namespace name_sorter.application
 {
     public static class ServiceCollectionExtensions
     {

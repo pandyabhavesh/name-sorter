@@ -1,8 +1,8 @@
 ﻿using Microsoft.Extensions.Logging;
-using name_sorter_application.Data;
-using name_sorter_application.Interface;
+using name_sorter.application.Data;
+using name_sorter.application.Interface;
 
-namespace name_sorter_application.BusinessLogic.Services;
+namespace name_sorter.application.BusinessLogic.Services;
 
 public class PersonService(IFileService fileService, IPersonParser parser, ILogger<PersonService> log) : IPersonService
 {

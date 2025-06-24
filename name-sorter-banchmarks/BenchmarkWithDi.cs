@@ -1,7 +1,7 @@
 ﻿using BenchmarkDotNet.Attributes;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace name_sorter_banchmarks
+namespace name_sorter.banchmarks
 {
     public abstract class BenchmarkWithDi
     {

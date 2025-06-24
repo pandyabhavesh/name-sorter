@@ -2,7 +2,7 @@
 using Microsoft.Extensions.Hosting;
 using name_sorter;
 using Serilog;
-using name_sorter_application;
+using name_sorter.application;
 
 internal class Program
 {

@@ -1,10 +1,10 @@
 ﻿using BenchmarkDotNet.Attributes;
 using Microsoft.Extensions.DependencyInjection;
-using name_sorter_application.BusinessLogic.Helper;
-using name_sorter_application.BusinessLogic.Services;
-using name_sorter_application.Data;
-using name_sorter_application.Interface;
-using name_sorter_banchmarks;
+using name_sorter.application.BusinessLogic.Helper;
+using name_sorter.application.BusinessLogic.Services;
+using name_sorter.application.Data;
+using name_sorter.application.Interface;
+using name_sorter.banchmarks;
 using Serilog;
 
 [MemoryDiagnoser]
@@ -14,7 +14,7 @@ public class PersonSortBenchmarks : BenchmarkWithDi
     public int Count;
 
     private List<Person>? _people;
-    private IPersonSorter _personSorter;
+    private IPersonSorter? _personSorter;
 
     [GlobalSetup]
     public void Setup()
@@ -44,7 +44,7 @@ public class PersonSortBenchmarks : BenchmarkWithDi
     public void CustomSorter()
     {
         var copyOfPeople = new List<Person>(_people);
-        _personSorter.SortByName(copyOfPeople);
+        _personSorter?.SortByName(copyOfPeople);
     }
 
     [Benchmark]
