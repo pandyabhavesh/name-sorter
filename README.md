@@ -17,10 +17,10 @@
 ## How to run
 - Ensure you have .NET SDK installed (8.0).
 - Clone the repository and navigate to the `name-sorter` directory.
-- <path-to-person-data-file> is optional, if not provided, it will default to `unsorted-names-list.txt` in the current directory.
-- <output-file-path> is optional, if not provided, it will default to `sorted-names-list.txt` in the current directory.
+- path-to-person-data-file is optional, if not provided, it will default to `unsorted-names-list.txt` in the current directory.
+- output-file-path is optional, if not provided, it will default to `sorted-names-list.txt` in the current directory.
 - Run the application using the command:
   ```bash
 	dotnet build
-	dotnet run --project name-sorter <path-to-person-data-file> <output-file-path>>
+	dotnet run --project name-sorter <path-to-person-data-file> <output-file-path>
   ```
