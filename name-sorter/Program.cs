@@ -50,16 +50,6 @@ internal class Program
 }
 
 
-// BenchmarkRunner.Run<PersonSortBenchmarks>();
-
-//var roster = new List<Person>
-//{
-//    new("Grace",   "H.", null, "Hopper"),
-//    new("Alan",  null,  null, "Turing"),
-//    new("Barbara", "Bob", "J.", "Liskov"),
-//    new("Ada",   null,  null, "Lovelace")
-//};
-
 
 
 
